@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <dict>
+        <key>aps-environment</key>
+        <string>development</string> <!-- Change to "production" for production environment -->
+        <key>app</key>
+        <dict>
+            <key>bundle-id</key>
+            <string>com.example.app</string> <!-- Bundle ID of the app -->
+            <key>notification-settings</key>
+            <dict>
+                <key>allow-badges</key>
+                <true/>
+                <key>allow-sound</key>
+                <true/>
+                <key>allow-alerts</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+    <key>PayloadDisplayName</key>
+    <string>Notification Settings</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.notificationSettings</string>
+    <key>PayloadType</key>
+    <string>com.apple.application-configuration</string>
+    <key>PayloadUUID</key>
+    <string>Unique-Identifier-Here</string> <!-- Use a unique UUID for each payload -->
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
